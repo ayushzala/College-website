@@ -15,7 +15,7 @@ export default function Achivements() {
                 <div className='flex flex-col gap-3'>
                     <h1 className='text-2xl text-blue-600'>LDCE NSS Unit awarded as Best NSS Unit and Prof. C. S. Sanghvi as Best Program Officer of GTU for the year 2021-22.</h1>
                     <p>By LDCE / 18 May, 2024 <br />
-                    LDCE NSS Unit awarded as Best NSS Unit and Prof. C. S. Sanghvi as Best Program Officer of GTU for the year 2021-22.</p>
+                   LDCE NSS Unit awarded as Best NSS Unit and Prof. C. S. Sanghvi as Best Program Officer of GTU for the year 2021-22.</p>
                 </div>
             </div>
         </div>

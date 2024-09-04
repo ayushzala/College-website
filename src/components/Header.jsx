@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import myImage from '../assets/LDCE_logo.jpg';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ export default function Header() {
         {/* logo container */}
         <Link to='/'>
           <div className='flex items-center gap-2 m-1'>
-            <img src="https://storage.googleapis.com/ezap-prod/colleges/6071/ld-college-of-engineering-ahmedabad-logo.png" alt="College logo" className='w-16 h-16' />
+            <img src={myImage} alt="College logo" className='w-16 h-16' />
             <span className='text-xl font-semibold'>LDCE</span>
           </div>
         </Link>
